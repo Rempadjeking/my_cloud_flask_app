@@ -1,21 +1,27 @@
-# Cloud Lab Project
-Simple web application for Cloud Computing class.
+# Simple Flask Cloud App
 
-## Description
-This application demonstrates the process of deploying a Python/Flask server on a PaaS platform.
+Данное приложение было разработано в рамках лабораторной работы по изучению облачных технологий (PaaS).
 
-## Technology Stack
-- **Language:** Python 3.10+
-- **Framework:** Flask
-- **PaaS:** Render
-- **Server:** Gunicorn
+## 🚀 Ссылка на деплой
+Приложение развернуто и доступно по адресу:
+[https://mycloudflaskapp-production.up.railway.app/](https://mycloudflaskapp-production.up.railway.app/)
 
-## Local Setup
-1. Install dependencies: `pip install -r requirements.txt`
-2. Run app: `python app.py`
-3. Access at: `http://localhost:5000`
+## 🛠 Технологический стек
+* **Язык:** Python 3.13
+* **Фреймворк:** Flask
+* **WSGI-сервер:** Gunicorn
+* **Платформа (PaaS):** Railway
 
-## Deployment Info
-- **Platform:** Render (Free Tier)
-- **Build Command:** `pip install -r requirements.txt`
-- **Start Command:** `gunicorn app:app`
+## 📋 Инструкция по запуску локально
+
+1. Клонируйте репозиторий:
+   ```bash
+   git clone [https://github.com/Rempadjeking/my_cloud_flask_app.git](https://github.com/Rempadjeking/my_cloud_flask_app.git)
+
+2. Установите зависимости:
+   ```bash
+   pip install -r requirements.txt
+
+3. Запустите приложение:
+   ```bash
+   python app.py
